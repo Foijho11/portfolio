@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frenzy Faya | Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-blur"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">HELLO<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge">BSIT DEVELOPER</div>
+            <h1>Frenzy Faya <br>C. Cueva</h1>
+            <p class="description">Building functional systems and high-impact designs in <strong>Madridejos, Cebu</strong>.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-dark">Explore Projects</a>
+                <a href="mailto:frenzyarcher11@gmail.com" class="btn btn-outline">Let's Talk</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Selected Projects</h2>
+                <p>A showcase of full-stack development and branding.</p>
+            </div>
+            
+            <div class="project-grid">
+                <div class="project-card large">
+                    <div class="card-content">
+                        <span class="category">System Development</span>
+                        <h3>LARTS</h3>
+                        <p>Laboratory Attendance & Resource Tracker using PHP/SQL. Features real-time occupancy and ID scanning.</p>
+                        <div class="tech-icons">
+                            <i class="devicon-php-plain"></i>
+                            <i class="devicon-mysql-plain"></i>
+                            <i class="devicon-html5-plain"></i>
+                        </div>
+                        <a href="http://larts.kesug.com" target="_blank" class="project-link">Launch Site →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-content">
+                        <span class="category">Web App</span>
+                        <h3>Performance Evaluation</h3>
+                        <p>React + Vite platform for department satisfaction surveys and real-time insights.</p>
+                        <div class="tech-icons">
+                            <i class="devicon-react-original"></i>
+                            <i class="devicon-vitejs-plain"></i>
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-content">
+                        <span class="category">Graphic Design</span>
+                        <h3>Branding & Media</h3>
+                        <p>Professional tarpaulins and posters for major school events created in Photoshop.</p>
+                        <div class="tech-icons">
+                            <i class="devicon-photoshop-plain"></i>
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-dark-section">
+        <div class="container">
+            <h2 class="title light">Technical Stack</h2>
+            <div class="skills-wrapper">
+                <div class="skill-box">
+                    <h5>Programming</h5>
+                    <div class="icon-group">
+                        <i class="devicon-c-plain colored"></i>
+                        <i class="devicon-cplusplus-plain colored"></i>
+                        <i class="devicon-php-plain colored"></i>
+                        <i class="devicon-mysql-plain colored"></i>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h5>Frontend</h5>
+                    <div class="icon-group">
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-react-original colored"></i>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h5>Tools</h5>
+                    <div class="icon-group">
+                        <i class="devicon-photoshop-plain colored"></i>
+                        <i class="devicon-vscode-plain colored"></i>
+                        <i class="fas fa-file-excel" style="color: #217346;"></i>
+                        <i class="fas fa-file-word" style="color: #2b579a;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-box">
+                <h2>Ready to collaborate?</h2>
+                <p>Currently looking for new opportunities in IT and Design.</p>
+                <a href="mailto:frenzyarcher11@gmail.com" class="footer-email">frenzyarcher11@gmail.com</a>
+                <div class="footer-sub">
+                    <p>09052416772 | Madridejos, Cebu</p>
+                    <p class="copy">© 2026 Frenzy Faya</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
